@@ -1,0 +1,446 @@
+/** Add css rules here for your application. */
+
+/** Add css rules here for your application. */
+@font-face {
+	font-family: Nexa;
+	src: url("Nexa_Light.ttf") format("truetype");
+	src: url("Nexa_Light.woff") format("woff");
+}
+
+@font-face {
+	font-family: Nexa;
+	font-weight: bold;
+	src: url("Nexa_Bold.ttf") format("truetype");
+	src: url("Nexa_Bold.woff") format("woff");
+}
+
+html, GBO-C-SEL{
+	/** font-family: Lato, arial, verdana, sans-serif; */
+    font-family: Nexa, Lato, arial, sans-serif !important;
+	font-size: 20px !important;
+}
+body{
+	    font-family: Nexa, Lato, arial, sans-serif !important;
+}
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+a {
+    text-decoration:none !important;
+}
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+.headertext{
+	font-family: Nexa, Lato, arial, sans-serif !important;
+	font-size: 26px !important;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+input[type="text"], textarea {
+	background-color: #f6f6f6;
+    font-size:18px !important;
+}
+
+input[type=text]:focus {
+    background-color: white;
+}
+
+
+/*captcha items are absolute position within div because we don't set the html*/
+.gwt-Captcha {
+	margin: 8px;
+    height: 220px;
+    width: 250px;
+    top: 20px !important;
+}
+.gwt-Captcha>canvas{
+    position: absolute !important;
+    left: 0px !important;
+    width:200px !important;
+    height:100px !important;
+}
+.gwt-Captcha>span{
+    position:absolute !important;
+    left: 199px !important;
+    top: 20px !important;
+    font-size:50px !important;
+}
+.gwt-Captcha>input{
+    position:absolute !important;
+    left: 0px !important;
+    top: 132px !important;
+    width: 191px !important;
+    margin-top:0px !important;
+    font-size:26px !important;
+}
+
+.RepQuestionContainer {
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+
+.AppealsIssueContainer{
+	margin-left: 15px;
+}
+
+.DocumentationContainer{
+	margin-left: 15px;
+}
+
+.removeButton{
+    height: 19px;
+    width: 19px;
+    margin-left: 20px;
+    margin-top:3px;
+    background-image: url(minusicon.png);
+    background-size:15px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.testStyle {
+
+}
+.GBO-C-SIJ {
+	 font-size: 18px !important;
+}
+
+#x-auto-59-label{
+	font-size: 28px;
+	color: black;
+	font-style: bold;
+
+}
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+#psl_header_image_2 { /*add things here */
+	text-align: left;
+	margin-left: 180px;
+	overflow: visible;
+}
+
+#psl_header_anchor { /*add things here */
+	margin-left: 80%;
+}
+
+#Header {
+	width: 1800px;
+    position: relative;
+    left: 50%;
+    top: 0%;
+}
+#Header>a{
+    top: 50px;
+    position: relative;
+}
+.GBO-C-SEDC {
+    font: 20px Nexa, Lato, arial, sans-serif !important;
+}
+.GBO-C-SHN .GBO-C-SIN {
+    font: 20px Nexa, Lato, arial, sans-serif !important;
+}
+
+/* buttons */
+.GBO-C-SGN .GBO-C-SIN, .GBO-C-SIIB .GBO-C-SLIB{
+    font-size:20px !important;
+}
+
+.GBO-C-SIK, .GBO-C-SG0{
+    font-size:20px !important;
+    line-height:23px;
+}
+
+.GBO-C-SEHB, .GBO-C-SEHB .GBO-C-SEL{
+    font: 18px Nexa, Lato, arial, sans-serif !important;
+}
+
+#adaButton {
+    position: relative;
+    border: 0;
+    background: transparent;
+    right: 230px;
+
+}
+
+#adaButton, img {
+    
+    
+}
+div.remedyHTMLTag>img{
+    position:relative !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+div.remedyHTMLTag>img{
+    width: 0px !important;
+	height: 0px !important;
+    visibility: hidden !important;
+}
+div.remedyHTMLTag>div{
+    position:relative !important;
+    left: 0px !important;
+    top: 0px !important;
+    border-width: 0px !important;
+}
+.appealTypeContainer{
+    white-space:nowrap !important;
+    overflow:scroll !important;
+}
+.appealTypeContainer>div>div:nth-of-type(2){
+    overflow: visible !important;
+}
+.appealTypeContainer>div>div:nth-of-type(2)>div{
+    overflow: visible !important;
+}
+#issueAndRemedy>div>img{
+    left:339px !important;
+    top: 581px !important;
+    
+}
+.userInfoHeaderText{
+    width: 300px;
+    font-size:18px;
+    text-align: center !important;
+}
+.dialogBoxText>div:nth-of-type(2){
+    font-size:18px !important;
+}/** Add css rules here for your application. */
+
+/** Add css rules here for your application. */
+@font-face {
+	font-family: Nexa;
+	src: url("Nexa_Light.ttf") format("truetype");
+	src: url("Nexa_Light.woff") format("woff");
+}
+
+@font-face {
+	font-family: Nexa;
+	font-weight: bold;
+	src: url("Nexa_Bold.ttf") format("truetype");
+	src: url("Nexa_Bold.woff") format("woff");
+}
+
+html, GBO-C-SEL{
+	/** font-family: Lato, arial, verdana, sans-serif; */
+    font-family: Nexa, Lato, arial, sans-serif !important;
+	font-size: 20px !important;
+}
+body{
+	    font-family: Nexa, Lato, arial, sans-serif !important;
+}
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+.headertext{
+	font-family: Nexa, Lato, arial, sans-serif !important;
+	font-size: 26px !important;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+input[type="text"], textarea {
+	background-color: #f6f6f6;
+    font-size:18px !important;
+}
+
+input[type=text]:focus {
+    background-color: white;
+}
+
+
+/*captcha items are absolute position within div because we don't set the html*/
+.gwt-Captcha {
+	margin: 8px;
+    height: 220px;
+    width: 250px;
+    top: 20px !important;
+}
+.gwt-Captcha>canvas{
+    position: absolute !important;
+    left: 0px !important;
+    width:200px !important;
+    height:100px !important;
+}
+.gwt-Captcha>span{
+    position:absolute !important;
+    left: 199px !important;
+    top: 20px !important;
+    font-size:50px !important;
+}
+.gwt-Captcha>input{
+    position:absolute !important;
+    left: 0px !important;
+    top: 132px !important;
+    width: 191px !important;
+    margin-top:0px !important;
+    font-size:26px !important;
+}
+
+
+.AppealsIssueContainer{
+	margin-left: 15px;
+}
+
+.DocumentationContainer{
+	margin-left: 15px;
+}
+
+.removeButton{
+    height: 19px;
+    width: 19px;
+    margin-left: 20px;
+    margin-top:3px;
+    background-image: url(minusicon.png);
+    background-size:15px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+.testStyle {
+
+}
+.GBO-C-SIJ {
+	 font-size: 18px !important;
+}
+
+#x-auto-59-label{
+	font-size: 28px;
+	color: black;
+	font-style: bold;
+
+}
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+#psl_header_image_2 { /*add things here */
+	text-align: left;
+	margin-left: 180px;
+	overflow: visible;
+}
+
+#psl_header_anchor { /*add things here */
+	margin-left: 80%;
+}
+
+#Header {
+	width: 1800px;
+    position: relative;
+    left: 50%;
+    top: 0%;
+}
+#Header>a{
+    top: 50px;
+    position: relative;
+}
+.GBO-C-SEDC {
+    font: 20px Nexa, Lato, arial, sans-serif !important;
+}
+.GBO-C-SHN .GBO-C-SIN {
+    font: 20px Nexa, Lato, arial, sans-serif !important;
+}
+
+/* buttons */
+.GBO-C-SGN .GBO-C-SIN, .GBO-C-SIIB .GBO-C-SLIB{
+    font-size:20px !important;
+}
+
+.GBO-C-SIK, .GBO-C-SG0{
+    font-size:20px !important;
+    line-height:23px;
+}
+
+.GBO-C-SEHB, .GBO-C-SEHB .GBO-C-SEL{
+    font: 18px Nexa, Lato, arial, sans-serif !important;
+}
+
+#adaButton {
+    position: relative;
+    border: 0;
+    background: transparent;
+    right: 230px;
+
+}
+
+#adaButton, img {
+    
+    
+}
+div.remedyHTMLTag>img{
+    position:relative !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+div.remedyHTMLTag>img{
+    width: 0px !important;
+	height: 0px !important;
+    visibility: hidden !important;
+}
+div.remedyHTMLTag>div{
+    position:relative !important;
+    left: 0px !important;
+    top: 0px !important;
+    border-width: 0px !important;
+}
+.appealTypeContainer{
+    white-space:nowrap !important;
+    overflow:scroll !important;
+}
+.appealTypeContainer>div>div:nth-of-type(2){
+    overflow: visible !important;
+}
+.appealTypeContainer>div>div:nth-of-type(2)>div{
+    overflow: visible !important;
+}
+#issueAndRemedy>div>img{
+    position:relative !important;
+    left:0px !important;
+    top:0px !important;
+}
+.userInfoHeaderText{
+    width: 300px;
+    font-size:18px;
+}
+.dialogBoxText>div:nth-of-type(2){
+    font-size:18px !important;
+}

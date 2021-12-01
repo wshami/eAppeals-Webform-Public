@@ -1,0 +1,434 @@
+/** Add css rules here for your application. */
+@font-face {
+	font-family: Nexa;
+	src: url("Nexa_Light.ttf") format("truetype");
+	src: url("Nexa_Light.woff") format("woff");
+}
+
+@font-face {
+	font-family: Nexa;
+	font-weight: bold;
+	src: url("Nexa_Bold.ttf") format("truetype");
+	src: url("Nexa_Bold.woff") format("woff");
+}
+
+html {
+	font-family: Nexa, Lato, arial, sans-serif !important;
+	font-size: 20px !important;
+}
+
+a {
+    text-decoration:none !important;
+}
+
+/**in html builder, define a class within the html and apply styling here */
+.t1 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#psl_body, .psl_label { /*add things here */
+	text-align: left;
+	margin-left: 180px;
+	font-size: 20px;
+	width: 1200px;
+	overflow: auto;
+}
+
+#psl_header_image_2 { /*add things here */
+	text-align: left;
+	margin-left: 180px;
+	overflow: visible;
+}
+
+#psl_header_anchor { /*add things here */
+	margin-left: 80%;
+}
+
+
+
+#Header {
+	width: 1800px;
+}
+
+#Main {
+	background-color: #444444;
+	height: 1020px;
+	width: 1200px;
+	margin-left: 180px;
+	border: 1px solid #222222;
+}
+
+.mainSmallTransparent {
+	background-color: #ffffff !important;
+	height: 300px !important;
+	border: none !important;
+}
+
+.mainLargeTransparent {
+	background-color: #ffffff !important;
+	border: none !important;
+	height: 700px !important;
+}
+
+button {
+	height: 28pt;
+	width: 160pt;
+/*	background-color: #0080ff;*/
+	color: #ffffff;
+	font-size: 20px;
+}
+
+/* GRID */
+/* grid cells*/
+.GBO-C-SNU {
+	font-size: 18px !important;
+	font-weight: bold !important;
+}
+
+
+
+/* BUTTONS */
+.GEDCTQSIAC {
+	font-size: 26px !important;
+	line-height: 32px !important;
+}
+
+/* .GBO-C-SNI .blue-background{
+	background: blue;
+	color: #ffffff !important;
+}*/
+/* MESSAGE BOX TEXT TITLE AND BODY */
+.GEDCTQSCTD {
+	font-size: 22px !important;
+	line-height: 32px !important;
+}
+
+.GEDCTQSAUD {
+	font-size: 18px !important;
+	line-height: 32px !important;
+}
+
+/* TABS */
+
+.com-nexlogica-gxt-theme-neptune-client-base-tabs-Css3TabPanelAppearance-Css3TabPanelStyle-tabBar {
+	border-bottom: 3px solid black !important;
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+}
+
+.com-nexlogica-gxt-theme-neptune-client-base-tabs-Css3TabPanelAppearance-Css3TabPanelStyle-tab {
+	overflow:visible !important;
+}
+
+.com-nexlogica-gxt-theme-neptune-client-base-tabs-Css3TabPanelAppearance-Css3TabPanelStyle-tabStrip {
+	margin-bottom: 1px !important;
+	margin-left: 20px !important;
+}
+.com-nexlogica-gxt-theme-neptune-client-base-tabs-Css3TabPanelAppearance-Css3TabPanelStyle-tabBody {
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 3px solid;
+ 
+}
+
+
+
+span.GEDCTQSDQD {
+	font-size: 18px !important;
+	line-height: 32px !important;
+}
+
+.GBO-C-SE5, .GBO-C-SDWB  {
+	height: 63px !important;
+    border: none !important;
+    font-size:26px !important;
+    background-color:white !important;
+}
+
+.GBO-C-SGN .GBO-C-SIN{
+    font-size:16px !important;
+}
+
+.GBO-C-SF5, .GBO-C-SEWB {
+	width: 1198px !important;
+	border: 1px solid !important;
+}
+GBO
+
+/* INTERNET EXPLORER FIXES */
+.GBO-C-SDWB {
+	background-color: #ffffff !important;
+	border: none !important;
+}
+
+.GBO-C-SIXB {
+	height: 62px !important;
+}
+
+
+
+/*.tabPanel>div>div>ul>li {
+    background:  #f75148 !important;
+}*/
+
+
+
+/*
+.tabPanel>div:nth-of-type(2){
+    border: 1px solid !important;
+}
+
+.tabPanelPrimary>div>div>ul>li:nth-of-type(1)>* {
+    background: #ffd54f !important;
+}
+.tabPanelPrimary>div>div>ul>li:nth-of-type(2)>* {
+    background: #f75148 !important;
+}
+.tabPanelSecondary>div>div>ul>li:nth-of-type(1)>* {
+    background: #f75148 !important;
+}
+
+.tabPanelSecondary>div>div>ul>li:nth-of-type(2)>* {
+    background: #ffd54f !important;
+}
+.tabPanelPrimary>div>div>ul>li>*:hover {
+    background: #ffd54f !important;
+}
+.tabPanelSecondary>div>div>ul>li>*:hover {
+    background: #ffd54f !important;
+}
+*/
+
+
+
+.GBO-C-SI5 {
+
+     background: -webkit-linear-gradient(top, #f75148 0%, #f75148 100%) !important; 
+     background: linear-gradient(to bottom, #f75148 0%, #f75148 100%) !important; 
+}
+
+
+.GBO-C-SCAB.GBO-C-SI5 {
+    background: -webkit-linear-gradient(top, #ffd54f 0%, #ffd54f 100%) !important;
+    background: linear-gradient(to bottom, #ffd54f 0%, #ffd54f 100%) !important;
+}
+
+.GBO-C-SGAB.GBO-C-SI5 {
+    background: -webkit-linear-gradient(top, #ffd54f 0%, #ffd54f 100%) !important;
+    background: linear-gradient(to bottom, #ffd54f 0%, #ffd54f 100%) !important;
+}
+
+.landing_page_button {
+	font-size: 26px;
+	height: 150pt;
+	width: 180pt;
+	background-color: #f75148;
+	color: #ffffff;
+}
+
+label {
+	font-size: 26px !important;
+}
+
+.replyLabel {
+	font-size: 26px !important;
+	font-weight: bold;
+}
+
+.captchaLabel {
+	font-size: 20px !important;
+	color: #ffffff !important;
+	width: 500px;
+	padding-bottom: 18px;
+}
+
+.middleGoldLine {
+	border-right: solid gold;
+}
+
+form { /* moves the entire form from FormBuilder.java*/
+	font: 26px, sans-serif;
+}
+
+input {
+	height: 26px !important;
+	font-size: 24px !important;
+	margin-top: 5px !important;
+}
+
+input[type="text"] {
+	background: #f6f6f6; /*background should be the text area*/
+	color: #2f4f4f; /*text color*/
+	height: 35px !important;
+	line-height: 26px !important;
+    font-size: 20px !important;
+}
+
+input[type=text]:focus {
+	background: white; /*background should be the text area*/
+	color: #2f4f4f; /*text color*/
+}
+
+textarea {
+	font-size: 20px !important;
+	margin-top: 5px !important;
+	background: #f6f6f6 !important; /*background should be the text area*/
+	color: #2f4f4f; /*text color*/
+}
+
+textarea:focus {
+	background: white !important; /*background should be the text area*/
+	color: #2f4f4f; /*text color*/
+}
+
+#psl_header_text {
+	text-align: left;
+	font-size: 26px;
+    font-weight:bold;
+	color: #2f4f4f;
+	position: absolute;
+	margin-left: 18px;
+	margin-top: 25pt;
+}
+
+#psl_header {
+	background-color: #ffd54f;
+	height: 75pt;
+	width: 1200px;
+	margin-left: 180px;
+}
+
+#psl_header_text_2 {
+	text-align: center;
+	font-size: 26px;
+	color: #2f4f4f;
+	position: absolute;
+	margin-left: 48%;
+	margin-top: 25pt;
+	font-weight: bold;
+}
+
+#psl_header_2 {
+	width: 1800px;
+	margin-left: 180px;
+	background-color: #ffd54f;
+	height: 75pt;
+}
+
+#information {
+	font-size: 20px !important;
+}
+
+#information-title {
+	padding: 10px;
+	width: 240px;
+	font-weight: bold;
+}
+
+#information-description {
+	padding: 10px;
+	font-size: 20px !important;
+}
+#information-description>ul>li{
+    padding-top: 20px;
+}
+
+#gridContentPanel {
+	background-color: #d4ebf2;
+}
+
+#Footer {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#multipleAppealFooter {
+	background-color: #444444;
+	font-size: 26px;
+	padding: 30px;
+	color: #ffffff;
+	text-align: center;
+	width: 1139px;
+}
+
+#multipleAppealFooter2 {
+	background-color: #FAEBD7;
+	font-size: 26px;
+	padding: 15px;
+}
+
+.removeButton{
+    height: 29.5px;
+    width: 29.5px;
+    background-image: url(minusicon.png);
+    background-size:25px;
+    margin-top: 5px !important;
+}
+#adaButton {
+    position: relative;
+    border: 0;
+    background: transparent;
+    bottom: 70px;
+    right: 230px;
+
+}
+
+#adaButton, img {
+    
+    
+}
+
+.actionRequiredUpper{
+    margin-right:40px;
+}
+.fileDescLabel{
+    
+}
+.captchaLabel>label {
+	font-size: 20px !important;
+	color: #ffffff !important;
+	width: 500px;
+	padding-bottom: 18px;
+}
+
+.searchAndCaptchaContainer{
+	top:420px !important;
+}
+/*captcha items are absolute position within div because we don't set the html*/
+.gwt-Captcha {
+	margin: 8px;
+    height: 185px;
+    width: 250px;
+    top: 90px !important;
+}
+.gwt-Captcha>canvas{
+    position: absolute !important;
+    left: 0px !important;
+    width:200px !important;
+    height:100px !important;
+}
+.gwt-Captcha>span{
+    position:absolute !important;
+    left: 199px !important;
+    top: 35px !important;
+    font-size:50px !important;
+}
+.gwt-Captcha>input{
+    position:absolute !important;
+    left: 0px !important;
+    top: 132px !important;
+    width: 191px !important;
+    margin-top:0px !important;
+    font-size:26px !important;
+}
+.GBO-C-SGCC {
+    overflow: visible !important;
+}
+.GBO-C-SIJ {
+    font-size:20px !important;
+}

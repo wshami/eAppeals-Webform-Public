@@ -1,0 +1,24 @@
+body {
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 26px;
+	font-family: sans-serif;
+	overflow:auto;
+}
+
+#psl_header_text{
+	text-align:center;
+	font-size: 36px;
+	color: #2f4f4f;
+	position:absolute;
+	margin-left: 48%;
+	margin-top: 25pt;
+}
+
+#psl_header{
+	margin-left: -80%;
+	margin-right: -80%;
+	background-color: #ffd54f;
+	height: 75pt;
+}
